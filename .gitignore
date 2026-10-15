@@ -1,0 +1,22 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated banking data, local database, vector store, and logs
+data/
+src/logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and OS artifacts
+.DS_Store
+.vscode/
