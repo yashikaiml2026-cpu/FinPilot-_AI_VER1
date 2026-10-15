@@ -11,7 +11,12 @@ __pycache__/
 .pytest_cache/
 
 # Generated banking data, local database, vector store, and logs
-data/
+/data/
+src/data/chroma/
+src/data/raw/
+src/data/processed/
+src/data/dataset_documentation.md
+src/data/*.db
 src/logs/
 *.db
 *.sqlite
